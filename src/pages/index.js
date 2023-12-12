@@ -156,7 +156,7 @@ export default function Home() {
 
       {tipoPesquisa === 'codigoEntidade' && (
         <input
-          type="text"
+          type="number"
           value={codigoEntidade}
           onChange={(e) => setCodigoEntidade(e.target.value)}
           placeholder="Código da Entidade"
@@ -166,7 +166,7 @@ export default function Home() {
 
       {tipoPesquisa === 'cpf' && (
         <input
-          type="text"
+          type="number"
           value={cpf}
           onChange={(e) => setCpf(e.target.value)}
           placeholder="CPF"
