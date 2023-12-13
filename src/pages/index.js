@@ -122,7 +122,7 @@ export default function Home() {
       <div style={styles.form_outer}>
         <h1 style={styles.title}>Pesquisa Educacenso</h1>
         <h3 style={styles.description}>
-          Esse site é destinado a pesquisa no educacenso, quando ele estiver fechado.
+          Esse site é destinado a pesquisa no educacenso no momento em que ele estiver fechado.
           É necessario fazer login no censo antes de pesquisar!
         </h3>
       <select
