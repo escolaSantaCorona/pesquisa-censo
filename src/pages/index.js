@@ -131,7 +131,7 @@ export default function Home() {
         style={styles.select}
       >
         <option value="nomeAluno">Pesquisar por Nome do Aluno</option>
-        <option value="codigoEntidade">Pesquisar por Código da Entidade</option>
+        <option value="codigoEntidade">Pesquisar escola pelo inep</option>
         <option value="cpf">Pesquisar por CPF</option>
       </select>
 
