@@ -85,7 +85,7 @@ export default function Home() {
     const [codigoEscola, setCodigoEscola] = useState('43184812'); // Valor padrão do exemplo
 
     const handleLogin = () => {
-        window.open('https://censobasico.inep.gov.br/censobasico/#/', '_blank');
+        window.open('https://censobasico.inep.gov.br/censobasico/', '_blank');
     };
 
     const handleSearch = async () => {
