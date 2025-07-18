@@ -85,7 +85,7 @@ export default function Home() {
     const [codigoEscola, setCodigoEscola] = useState('43184812'); // Valor padrão do exemplo
 
     const handleLogin = () => {
-        window.open('https://censobasico.inep.gov.br/censobasico/', '_blank');
+        window.open('https://acesso.inep.gov.br/auth/realms/Producao/protocol/openid-connect/auth?client_id=educacenso&redirect_uri=https%3A%2F%2Feducacenso.inep.gov.br%2Feducacenso%2F%2Fselecionar-entidade&state=232d70e0-0ba0-43c3-84cd-78147342a80e&nonce=f8139b68-0817-47cd-b853-e313c1f76503&response_mode=fragment&response_type=code&scope=openid', '_blank');
     };
 
     const handleSearch = async () => {
